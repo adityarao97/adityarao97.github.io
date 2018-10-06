@@ -1,0 +1,218 @@
+body {
+  overflow-x: hidden;
+}
+
+a {
+  color: currentColor!important;
+  text-decoration: none!important;
+}
+a:link {
+  text-decoration: none!important;
+  color: currentColor!important;
+  }
+
+a:visited {
+  text-decoration: none!important;
+}
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-bottom: #444 1.5px solid;
+}
+
+.carousel-item {
+  min-height: 100vh;
+}
+
+.mb-5, .my-5 {
+  margin-bottom: 12rem!important;
+}
+
+.carousel-image-1 {
+  background: url('../img/image1.jpg');
+  background-size: cover;
+	background-position: center;
+}
+
+.carousel-image-1-gallery {
+  background: url('../img/cam.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-image-2 {
+  background: url('../img/cam.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.carousel-image-3 {
+  background: url('../img/contact.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+#home-icons {
+  min-height:50vh;  
+}
+
+#home-heading-index {
+  position: relative;
+  min-height: 50vh;
+  background: url('../img/par1.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#home-heading-about {
+  position: relative;
+  min-height: 100vh;
+  background: url('../img/about.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#home-heading-gallery {
+  position: relative;
+  min-height: 100vh;
+  background: url('../img/cam.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#home-heading-services {
+  position: relative;
+  min-height: 100vh;
+  background: url('../img/cake.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#home-heading-party {
+  position: relative;
+  min-height: 100vh;
+  background: url('../img/p2.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#home-heading-wedding {
+  position: relative;
+  min-height: 100vh;
+  background: url('../img/w2.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#home-heading-corporate {
+  position: relative;
+  min-height: 100vh;
+  background: url('../img/c4.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#video-play {
+  position: relative;
+  height: 100vh;
+  background: url('../img/p4.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#video-play a {
+  color: #fff;
+}
+
+#page-header {
+  height: 200px;
+  background: url('../img/image1.jpg');
+  background-position: 0 -360px;
+	background-position: center;
+  background-attachment: fixed;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+#page-header-contact {
+  height: 100vh;
+  background: url('../img/contact.jpg ');
+  /* background-position: 0 -360px; */
+  background-size: cover;
+	background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+#about {
+  min-height:100vh;
+}
+.about-img {
+  margin-top: -50px;
+}
+
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+
+#main-footer {
+  background: #000;
+  color: #fff;
+}
+
+#icon-boxes {
+  min-height:100vh;
+}

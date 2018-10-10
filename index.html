@@ -18,35 +18,31 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Game Ready</a>
-          </div>
-      
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="">Home</a></li>
-              <li><a href="">About Us</a></li>
-              <li><a href="">Contact</a></li>        
-            </ul>
-            
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">SignUp <i class="fa fa-user-plus"></i></a></li>  
-              <li><a href="#">LogIn <i class="fa fa-user"></i></a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
     <div class="container">
       <a href="index.html" class="navbar-brand">Spring Socials</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -58,7 +54,7 @@
             <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="about.html" class="nav-link">About Us</a>
+            <a href="about.html" class="nav-link">About</a>
           </li>
           <li class="nav-item">
             <a href="services.html" class="nav-link">Services</a>
@@ -70,13 +66,23 @@
             <a href="services.html#faqsection" class="nav-link">FAQ's</a>
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact Us</a>
+            <a href="contact.html" class="nav-link">Contact</a>
           </li>
           <li class="nav-item">
-              <a href="http://www.facebook.com/springsocials" target="_blank"><i class="fab fa-facebook-f fa-sm mr-2 ml-3" style="margin-top:11px"></i></a>   
-              <a href="http://www.instagram.com/springsocials" target="_blank"><i class="fab fa-instagram fa-sm mr-2"></i></a>
-              <a href="https://twitter.com/springsocials?s=08" target="_blank"><i class="fab fa-twitter fa-sm mr-2 "></i></a>
-              <a href="https://www.youtube.com/channel/UCwVWwEv-3HU4bOw09WcMX3w" target="_blank"><i class="fab fa-youtube fa-sm mr-2 "></i></a>          
+            <div class="row">
+              <div class="col-sm-3 md-3 lg-3">
+                  <a href="http://www.facebook.com/springsocials" target="_blank"><i class="fab fa-facebook-f fa-sm mr-2 ml-3" style="margin-top:11px"></i></a>   
+              </div>
+              <div class="col-sm-3 md-3 lg-3">
+                  <a href="http://www.instagram.com/springsocials" target="_blank"><i class="fab fa-instagram fa-sm mr-2" style="margin-top:11px"></i></a>
+              </div>
+              <div class="col-sm-3 md-3 lg-3">
+                  <a href="https://twitter.com/springsocials?s=08" target="_blank"><i class="fab fa-twitter fa-sm mr-2 " style="margin-top:11px"></i></a>
+              </div>
+              <div class="col-sm-3 md-3 lg-3">
+                  <a href="https://www.youtube.com/channel/UCwVWwEv-3HU4bOw09WcMX3w" target="_blank"><i class="fab fa-youtube fa-sm mr-2" style="margin-top:11px"></i></a>          
+              </div>
+            </div>
           </li>
         </ul>
       </div>

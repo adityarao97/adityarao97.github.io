@@ -128,7 +128,9 @@ a:visited {
 #home-heading-wedding {
   position: relative;
   min-height: 100vh;
-  background: url('../img/w2.jpg');
+  background-size: cover;
+	background-position: center;
+  background: url('../img/w4.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;

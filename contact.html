@@ -99,6 +99,7 @@
           </div>
         </div>
         <div class="col-md-8">
+            <form name="contact" method="post" action="send_form_email.php" style="float:right">
           <div class="card p-4">
             <div class="card-body">
               <h3 class="text-center">Please fill out this form to contact us</h3>
@@ -106,36 +107,36 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="First Name" id="fname">
+                    <input name="fname" type="text" class="form-control" placeholder="First Name" id="fname">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Last Name" id="lname">
+                    <input name="lname" type="text" class="form-control" placeholder="Last Name" id="lname">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Email" id="mail">
+                    <input name="email" type="text" class="form-control" placeholder="Email" id="mail">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Phone Number" id="pno">
+                    <input name="phno" type="text" class="form-control" placeholder="Phone Number" id="pno">
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12">
                   <div class="form-group">
-                    <textarea class="form-control" placeholder="Address"></textarea>
+                    <textarea name="addr" class="form-control" placeholder="Address"></textarea>
                   </div>
                 </div>
                 <div class="col-md-12 input-group mb-3">
                   <div class="input-group-prepend">
                     <label class="input-group-text" for="inputGroupSelect01">Options</label>
                   </div>
-                  <select class="custom-select" id="inputGroupSelect01">
+                  <select name="type" class="custom-select" id="inputGroupSelect01">
                     <option selected>Select your event type</option>
                     <option value="1">Weddings</option>
                     <option value="2">Parties</option>
@@ -144,7 +145,7 @@
                 </div>
                 <div class="col-md-12">
                   <div class="form-group">
-                    <textarea class="form-control" placeholder="Message"></textarea>
+                    <textarea name="msg" class="form-control" placeholder="Message"></textarea>
                   </div>
                 </div>
                 <div class="col-md-12">
@@ -152,13 +153,16 @@
                     <input type="submit" value="Submit" class="btn btn-outline-danger btn-block" id="submitform">
                   </div>
                 </div>
+              
               </div>
               </div>
             </div>
           </div>
+        </form>
         </div>
       </div>
     </div>
+
   </section>
 
   <!-- STAFF

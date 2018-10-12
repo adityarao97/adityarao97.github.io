@@ -33,7 +33,7 @@ if(isset($_POST['email'])) {
     $email_from = $_POST['email']; // required
     $telephone = $_POST['phno']; // not required
     $comments = $_POST['msg']; // required
- 
+    
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
  
@@ -50,7 +50,13 @@ if(isset($_POST['email'])) {
   if(!preg_match($string_exp,$last_name)) {
     $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
   }
+
+  $Num_exp = "/^[0-9]+$/";
  
+  if(strlen($telephone) !=10 && !preg_match($Num_exp,$telephone)) {
+    $error_message .= 'Number not valid!!<br />';
+  }
+
   if(strlen($comments) < 2) {
     $error_message .= 'The Comments you entered do not appear to be valid.<br />';
   }
@@ -69,8 +75,7 @@ if(isset($_POST['email'])) {
  
      
  
-    $email_message .= "First Name: ".clean_string($first_name)."\n";
-    $email_message .= "Last Name: ".clean_string($last_name)."\n";
+    $email_message .= "Name: ".clean_string($first_name).clean_string($last_name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Telephone: ".clean_string($telephone)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";

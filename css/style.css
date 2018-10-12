@@ -120,6 +120,8 @@ a:visited {
   min-height: 100vh;
   background: url('../img/p2.jpg');
   background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   color: #fff;
@@ -128,10 +130,10 @@ a:visited {
 #home-heading-wedding {
   position: relative;
   min-height: 100vh;
-  background-size: cover;
-	background-position: center;
   background: url('../img/w4.jpg');
   background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   color: #fff;
@@ -142,6 +144,8 @@ a:visited {
   min-height: 100vh;
   background: url('../img/c4.jpg');
   background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   color: #fff;
